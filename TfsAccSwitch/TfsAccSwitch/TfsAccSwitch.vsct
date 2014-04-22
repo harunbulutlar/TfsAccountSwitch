@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+  <!--<Extern href="msobtnid.h" xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" />-->
+  <Extern href="guids.h" />
+  <Commands package="guidTfsAccSwitchPkg">
+    <Groups>
+      <Group guid="guidTfsAccSwitchCmdSet" id="AccSwitchNodeGroup" priority="0x1000">
+        <Parent guid="TeamExplorerGuid" id="TeamExplorerCmdID" />
+      </Group>      
+    </Groups>   
+    <Buttons>
+      <!-- Adding copy query expression item to query node context menu-->
+      <Button guid="guidTfsAccSwitchCmdSet" id="cmdidShowAccount" priority="0x0100" type="Button">
+        <Parent guid="guidTfsAccSwitchCmdSet" id="AccSwitchNodeGroup" />
+        <Icon guid="guidImages" id="bmpPicSearch" />
+        <Strings>
+          <CommandName>cmdidShowAccount</CommandName>
+          <ButtonText>Account Details</ButtonText>
+        </Strings>
+    </Button>
+    <Button guid="guidTfsAccSwitchCmdSet" id="cmdidChangeAccount" priority="0x0100" type="Button">
+        <Parent guid="guidTfsAccSwitchCmdSet" id="AccSwitchNodeGroup" />
+        <Icon guid="guidImages" id="bmpPicArrows" />
+        <Strings>
+            <CommandName>cmdidChangeAccount</CommandName>
+            <ButtonText>Change Account</ButtonText>
+        </Strings>
+    </Button>
+    </Buttons>
+    <Bitmaps>
+      <Bitmap guid="guidImages" href="Resources\Images_32bit.bmp" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows" />
+    </Bitmaps>
+  </Commands>
+  <Symbols>
+    <!-- This is the package guid. -->
+    <GuidSymbol name="guidTfsAccSwitchPkg" value="{e98f8fa6-98b4-479d-89c7-8b99e6fa5b23}" />
+    <!-- This is the guid used to group the menu commands together -->
+    <GuidSymbol name="guidTfsAccSwitchCmdSet" value="{d269264a-f6f7-49c7-b684-e6a1b6440895}">
+      <IDSymbol name="AccSwitchNodeGroup" value="0x1040" />
+      <IDSymbol name="cmdidShowAccount" value="0x0200" />
+      <IDSymbol name="cmdidChangeAccount" value="0x0300" />
+    </GuidSymbol>
+    <GuidSymbol name="guidImages" value="{851f7727-1e2b-4642-b481-066abe7957ed}">
+        <IDSymbol name="bmpPic1" value="1" />
+        <IDSymbol name="bmpPic2" value="2" />
+        <IDSymbol name="bmpPicSearch" value="3" />
+        <IDSymbol name="bmpPicX" value="4" />
+        <IDSymbol name="bmpPicArrows" value="5" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>

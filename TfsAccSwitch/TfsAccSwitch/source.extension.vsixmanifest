@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+    <Identifier Id="e98f8fa6-98b4-479d-89c7-8b99e6fa5b23">
+        <Name>TfsAccSwitch</Name>
+        <Author>NoComp</Author>
+        <Version>1.0</Version>
+        <Description xml:space="preserve">Tfs Account switcher integrated to Team Explorer menu. View account information or change it. Attention switching account requires visual studio restart</Description>
+        <Locale>1033</Locale>
+        <InstalledByMsi>false</InstalledByMsi>
+        <SupportedProducts>
+            <VisualStudio Version="10.0">
+                <Edition>Pro</Edition>
+            </VisualStudio>
+            <VisualStudio Version="11.0">
+                <Edition>Pro</Edition>
+            </VisualStudio>
+        </SupportedProducts>
+        <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+    </Identifier>
+    <References>
+        <Reference Id="Microsoft.VisualStudio.MPF" MinVersion="10.0">
+            <Name>Visual Studio MPF</Name>
+        </Reference>
+    </References>
+    <Content>
+        <VsPackage>|%CurrentProject%;PkgdefProjectOutputGroup|</VsPackage>
+    </Content>
+</Vsix>
