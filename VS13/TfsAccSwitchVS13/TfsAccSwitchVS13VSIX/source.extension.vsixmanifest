@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+    <Identifier Id="TfsAccSwitchVS13VSIX..b737b607-9c97-4ea0-afd0-19037e9564a5">
+        <Name>TFS Account Switch</Name>
+        <Author>Harun Bulutlar</Author>
+        <Version>1.1</Version>
+		<Description xml:space="preserve">TFS Account Switcher. View account details and change your active account by right clicking at team explorer</Description>
+        <Locale>1033</Locale>
+        <SupportedProducts>
+            <VisualStudio Version="10.0">
+                <Edition>Pro</Edition>
+            </VisualStudio>
+	    <VisualStudio Version="11.0">
+                <Edition>Pro</Edition>
+            </VisualStudio>
+	    <VisualStudio Version="12.0">
+                <Edition>Pro</Edition>
+            </VisualStudio>
+        </SupportedProducts>
+        <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.5" />
+    </Identifier>
+    <References />
+    <Content>
+        <VsPackage>|TfsAccSwitchVS10;PkgdefProjectOutputGroup|</VsPackage>
+	<VsPackage>|TfsAccSwitchVS12;PkgdefProjectOutputGroup|</VsPackage>
+	<VsPackage>|TfsAccSwitchVS13;PkgdefProjectOutputGroup|</VsPackage>
+    </Content>
+</Vsix>
+

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsAccSwitchVS10", "TfsAccSwitchVS10\TfsAccSwitchVS10.csproj", "{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2B3DE5F-7885-4B66-A9AC-7048F5E9F0FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsAccSwitchVS10VSIX", "TfsAccSwitchVS10VSIX\TfsAccSwitchVS10VSIX.csproj", "{3328B870-0B2A-4424-8114-D02C21623936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3328B870-0B2A-4424-8114-D02C21623936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3328B870-0B2A-4424-8114-D02C21623936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3328B870-0B2A-4424-8114-D02C21623936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3328B870-0B2A-4424-8114-D02C21623936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

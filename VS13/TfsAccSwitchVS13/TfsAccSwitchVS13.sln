@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsAccSwitchVS13", "TfsAccSwitchVS13\TfsAccSwitchVS13.csproj", "{D899A83C-82C9-479C-B83A-3B14C2B703ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsAccSwitchVS13VSIX", "TfsAccSwitchVS13VSIX\TfsAccSwitchVS13VSIX.csproj", "{06D8A19F-1223-41A7-AA41-540269FEBBEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CredentialUtility", "..\..\CredentialUtility\CredentialUtility\CredentialUtility.csproj", "{57032547-5B98-44C6-945F-359ADCFE2A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsAccSwitchVS12", "..\..\VS12\TfsAccSwitchVS12\TfsAccSwitchVS12\TfsAccSwitchVS12.csproj", "{5D586581-2DFD-45DA-95A6-F36170745FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsAccSwitchVS10", "..\..\VS10\TfsAccSwitchVS10\TfsAccSwitchVS10\TfsAccSwitchVS10.csproj", "{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D899A83C-82C9-479C-B83A-3B14C2B703ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D899A83C-82C9-479C-B83A-3B14C2B703ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D899A83C-82C9-479C-B83A-3B14C2B703ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D899A83C-82C9-479C-B83A-3B14C2B703ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D8A19F-1223-41A7-AA41-540269FEBBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D8A19F-1223-41A7-AA41-540269FEBBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D8A19F-1223-41A7-AA41-540269FEBBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D8A19F-1223-41A7-AA41-540269FEBBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57032547-5B98-44C6-945F-359ADCFE2A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57032547-5B98-44C6-945F-359ADCFE2A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57032547-5B98-44C6-945F-359ADCFE2A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57032547-5B98-44C6-945F-359ADCFE2A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D586581-2DFD-45DA-95A6-F36170745FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D586581-2DFD-45DA-95A6-F36170745FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D586581-2DFD-45DA-95A6-F36170745FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D586581-2DFD-45DA-95A6-F36170745FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74AB0E6-E3D8-4694-8BD7-F711E0A94446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

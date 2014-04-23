@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <Extern href="stdidcmd.h" />
+    <Extern href="vsshlids.h" />
+    <!--<Extern href="msobtnid.h" xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" />-->
+    <Extern href="guids.h" />
+    <Commands package="guidTfsAccSwitchVS12Pkg">
+        <Groups>
+            <Group guid="guidTfsAccSwitchVS12CmdSet" id="AccSwitchNodeGroup" priority="0x1000">
+                <Parent guid="TeamExplorerGuid" id="TeamExplorerCmdID" />
+            </Group>
+        </Groups>
+        <Buttons>
+            <Button guid="guidTfsAccSwitchVS12CmdSet" id="cmdidChangeAccount" priority="0x0100" type="Button">
+                <Parent guid="guidTfsAccSwitchVS12CmdSet" id="AccSwitchNodeGroup" />
+                <Icon guid="guidImages" id="bmpPicArrows" />
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<CommandFlag>DefaultInvisible</CommandFlag>
+				<CommandFlag>DefaultDisabled</CommandFlag>
+                <Strings>
+                    <CommandName>cmdidChangeAccount</CommandName>
+                    <ButtonText>Change Account</ButtonText>
+                </Strings>
+            </Button>
+        </Buttons>
+        <Bitmaps>
+            <Bitmap guid="guidImages" href="Resources\Images.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+        </Bitmaps>
+    </Commands>
+    <Symbols>
+        <!-- This is the package guid. -->
+        <GuidSymbol name="guidTfsAccSwitchVS12Pkg" value="{0fadd53b-5e95-4b75-97c1-baa743a91407}" />
+        <!-- This is the guid used to group the menu commands together -->
+        <GuidSymbol name="guidTfsAccSwitchVS12CmdSet" value="{8c7f7720-0d86-4763-9f7c-a24d5bb868a1}">
+            <IDSymbol name="AccSwitchNodeGroup" value="0x1040" />
+            <IDSymbol name="cmdidChangeAccount" value="0x0300" />
+        </GuidSymbol>
+        <GuidSymbol name="guidImages" value="{c642a388-863a-4a72-a206-83b1cace3d05}" >
+            <IDSymbol name="bmpPic1" value="1" />
+            <IDSymbol name="bmpPic2" value="2" />
+            <IDSymbol name="bmpPicSearch" value="3" />
+            <IDSymbol name="bmpPicX" value="4" />
+            <IDSymbol name="bmpPicArrows" value="5" />
+            <IDSymbol name="bmpPicStrikethrough" value="6" />
+        </GuidSymbol>
+    </Symbols>
+
+</CommandTable>
